@@ -33,12 +33,12 @@ const Banner = () => {
       </div>
       <div  className='lg:w-1/2 mb-10 lg:mb-0'>
 <div className='lg:w-[500px] flex flex-col space-y-6 items-center lg:items-start text-center lg:text-left mx-auto'>
-<p className='uppercase'>WellCome to Beetkom</p>
-<h1 className='lg:text-5xl '><span className='text-[#ffcb41]'>Beetkom Core Value </span> 
+<p className='uppercase'>WellCome to Matrix X</p>
+<h1 className='lg:text-5xl '><span className='text-[#ffcb41]'>Matrix X Core Value </span> 
 and Conception
 Innovation</h1>
 <p>
-Beetkom was created With the primary belief
+Matrix X was created With the primary belief
 that everyone has smooth real estate
 experience.The technology introduces hassle-
 free results. No one is the misguided. The
@@ -67,7 +67,7 @@ throughout the process They will help you with uploading the
 property details and doing other additional services such as
 virtual tours. We will guide how to take the perfect picture for
 the ad as
-well. Beetkom Will turn the dream of researching target buyers
+well. Matrix X Will turn the dream of researching target buyers
 into a reality
 </p>
 

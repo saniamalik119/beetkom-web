@@ -4,7 +4,7 @@ import { ImCancelCircle } from "react-icons/im";
 // import link
 import { Link } from "react-router-dom";
 // import logo
-import Logo from "../assets/img/img2.jpeg";
+import Logo from "../assets/img/loginLogo.jpeg";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -15,7 +15,7 @@ const Header = () => {
       className="flex items-center space-x-3"
        to="/">
         <img src={Logo} alt=""  width={50}/>
-        <p className="text-2xl">Beetkom.</p>
+        <p className="text-2xl">Matrix X.</p>
       </Link>
       <div className="hidden sm:flex items-center gap-6">
         <a href="/#About" className="hover:text-violet-900 transition" to="/addprop">
@@ -25,13 +25,13 @@ const Header = () => {
           Services
         </a>
        
-       <a
-        href="/#services"
+       <Link
+        to="/contact"
           className="bg-[#ffcb41]  text-white px-4 py-3 rounded-lg transition"
           
         >
-         Learn More
-        </a>
+         Contact US
+        </Link>
       </div>
       <div
         className="flex flex-col sm:hidden bg-violet-400 hover:bg-violet-500 text-white px-4 py-3 rounded-lg transition cursor-pointer"
